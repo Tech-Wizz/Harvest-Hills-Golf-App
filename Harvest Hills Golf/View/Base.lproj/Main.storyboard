@@ -57,7 +57,7 @@
         <!--Log In View Controller-->
         <scene sceneID="E8T-TV-taV">
             <objects>
-                <viewController id="gmJ-bv-3Hn" customClass="LogInViewController" sceneMemberID="viewController">
+                <viewController id="gmJ-bv-3Hn" customClass="LogInViewController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1HM-M0-DLq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,7 +99,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="1dD-4i-OL0">
             <objects>
-                <viewController id="Piz-8m-UHN" customClass="SignUpViewController" sceneMemberID="viewController">
+                <viewController id="Piz-8m-UHN" customClass="SignUpViewController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GVB-eW-WXf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,7 +118,7 @@
         <!--Home View Controller-->
         <scene sceneID="liM-V1-tGY">
             <objects>
-                <viewController id="5kM-5r-I27" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController id="5kM-5r-I27" customClass="HomeViewController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rz7-RV-cyj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,18 +137,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ked-5b-bhr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5585.4961832061063" y="-30.281690140845072"/>
+            <point key="canvasLocation" x="5419" y="920"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="FqX-aR-nbf">
             <objects>
-                <viewController id="2X4-XE-QZ7" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController id="2X4-XE-QZ7" customClass="MapViewController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e5n-8X-tzO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="REy-Xc-G7D">
-                                <rect key="frame" x="0.0" y="113" width="393" height="656"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
@@ -160,12 +160,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r6b-MO-P0u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6959.5419847328239" y="-30.281690140845072"/>
+            <point key="canvasLocation" x="6795" y="920"/>
         </scene>
         <!--Stats View Controller-->
         <scene sceneID="CHw-U8-Uxk">
             <objects>
-                <viewController id="8Pm-D0-JFq" customClass="StatsViewController" sceneMemberID="viewController">
+                <viewController id="8Pm-D0-JFq" customClass="StatsViewController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9k2-YZ-aqX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,12 +182,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YbW-Kl-jfF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7662" y="-30"/>
+            <point key="canvasLocation" x="7497" y="920"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="RgX-AZ-knN">
             <objects>
-                <viewController id="XuC-h7-DbF" customClass="SettingViewController" sceneMemberID="viewController">
+                <viewController id="XuC-h7-DbF" customClass="SettingViewController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tRY-YP-jJ0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -204,12 +204,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9r9-G2-dQU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8327" y="-30"/>
+            <point key="canvasLocation" x="8161" y="920"/>
         </scene>
         <!--Standing View Controller-->
         <scene sceneID="Uet-sO-k8l">
             <objects>
-                <viewController id="ffP-N9-jGF" customClass="StandingViewController" sceneMemberID="viewController">
+                <viewController id="ffP-N9-jGF" customClass="StandingViewController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eRs-4R-nbb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,11 +226,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kb2-Vh-jFv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6281.679389312977" y="-30.281690140845072"/>
+            <point key="canvasLocation" x="6117" y="920"/>
         </scene>
         <!--Item-->
         <scene sceneID="Cqb-8c-EGe">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ret-rO-l0D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bqd-Wd-dkO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="LoB-KC-vnQ"/>
                     <toolbarItems/>
@@ -243,9 +244,8 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="g1b-6r-Uqc"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ret-rO-l0D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="666.41221374045801" y="-30.281690140845072"/>
+            <point key="canvasLocation" x="-144" y="-30"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bhj-UJ-5GS">
@@ -253,7 +253,6 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EMp-9s-uBX" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="y4J-Nh-HJg" customClass="TabBarController"/>
-                    <nil key="simulatedTopBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="vgh-wq-hCN">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -270,11 +269,11 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1v-8p-Bya" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6866" y="-1249"/>
+            <point key="canvasLocation" x="6700" y="-299"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="V8g-qe-JAK"/>
+        <segue reference="tho-eN-Eve"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Harvest Hills" width="341.33334350585938" height="341.33334350585938"/>
