@@ -231,7 +231,6 @@
         <!--Item-->
         <scene sceneID="Cqb-8c-EGe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ret-rO-l0D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bqd-Wd-dkO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="LoB-KC-vnQ"/>
                     <toolbarItems/>
@@ -244,13 +243,14 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="g1b-6r-Uqc"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ret-rO-l0D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-144" y="-30"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bhj-UJ-5GS">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EMp-9s-uBX" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EMp-9s-uBX" customClass="TabBarController" customModule="Harvest_Hills_Golf" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="y4J-Nh-HJg" customClass="TabBarController"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="vgh-wq-hCN">
