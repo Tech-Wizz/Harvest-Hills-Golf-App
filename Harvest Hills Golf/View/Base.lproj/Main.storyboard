@@ -18,35 +18,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Harvest Hills" translatesAutoresizingMaskIntoConstraints="NO" id="b57-c2-VQy">
-                                <rect key="frame" x="26" y="150" width="341" height="341"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-xd-F7X">
-                                <rect key="frame" x="0.0" y="722" width="393" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Log In"/>
-                                <connections>
-                                    <segue destination="Piz-8m-UHN" kind="show" id="kC6-7V-96U"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUn-J9-018">
-                                <rect key="frame" x="0.0" y="653" width="393" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Register"/>
-                                <connections>
-                                    <segue destination="gmJ-bv-3Hn" kind="show" id="LBD-iy-PxB"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="158" translatesAutoresizingMaskIntoConstraints="NO" id="Wlq-cG-b0z">
+                                <rect key="frame" x="26" y="134" width="341" height="585"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Harvest Hills" translatesAutoresizingMaskIntoConstraints="NO" id="b57-c2-VQy">
+                                        <rect key="frame" x="0.0" y="0.0" width="341" height="341.33333333333331"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="sM3-hi-Qiw" userLabel="Buttons">
+                                        <rect key="frame" x="0.0" y="499.33333333333343" width="341" height="85.666666666666686"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-xd-F7X">
+                                                <rect key="frame" x="0.0" y="0.0" width="341" height="34.333333333333336"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Log In"/>
+                                                <connections>
+                                                    <segue destination="Piz-8m-UHN" kind="show" id="kC6-7V-96U"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUn-J9-018">
+                                                <rect key="frame" x="0.0" y="51.333333333333258" width="341" height="34.333333333333343"/>
+                                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                                                <connections>
+                                                    <segue destination="gmJ-bv-3Hn" kind="show" id="LBD-iy-PxB"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="BrandGreen"/>
+                        <constraints>
+                            <constraint firstItem="Wlq-cG-b0z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="0LI-KY-U4x"/>
+                            <constraint firstItem="Wlq-cG-b0z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="3Bp-6c-dYW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wlq-cG-b0z" secondAttribute="trailing" constant="26" id="Co5-Hb-u3M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wlq-cG-b0z" secondAttribute="trailing" constant="26" id="P7M-xS-8YJ"/>
+                            <constraint firstItem="Wlq-cG-b0z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="QyQ-Xc-wHh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wlq-cG-b0z" secondAttribute="bottom" constant="99" id="Vik-kM-8Dl"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gId-uO-QZI"/>
                 </viewController>
@@ -147,20 +162,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="REy-Xc-G7D">
-                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REy-Xc-G7D">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SGB-Zm-DTE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="REy-Xc-G7D" firstAttribute="trailing" secondItem="SGB-Zm-DTE" secondAttribute="trailing" id="6c9-g2-Jul"/>
+                            <constraint firstItem="REy-Xc-G7D" firstAttribute="leading" secondItem="SGB-Zm-DTE" secondAttribute="leading" id="CEL-1o-l6U"/>
+                            <constraint firstItem="REy-Xc-G7D" firstAttribute="top" secondItem="e5n-8X-tzO" secondAttribute="top" id="K4p-w0-0f6"/>
+                            <constraint firstItem="REy-Xc-G7D" firstAttribute="bottom" secondItem="SGB-Zm-DTE" secondAttribute="bottom" id="pRW-i6-siq"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="flag.fill" catalog="system" id="OOB-zL-0K7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r6b-MO-P0u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6795" y="920"/>
+            <point key="canvasLocation" x="6794.6564885496182" y="919.71830985915494"/>
         </scene>
         <!--Stats View Controller-->
         <scene sceneID="CHw-U8-Uxk">
@@ -245,7 +265,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ret-rO-l0D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-144" y="-30"/>
+            <point key="canvasLocation" x="616" y="-30"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bhj-UJ-5GS">

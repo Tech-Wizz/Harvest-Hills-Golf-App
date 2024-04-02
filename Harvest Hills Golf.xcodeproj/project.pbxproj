@@ -15,6 +15,9 @@
 		7F6431862BB78BCC00E1F74B /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6431852BB78BCC00E1F74B /* StatsViewController.swift */; };
 		7F6431882BB78BDF00E1F74B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6431872BB78BDF00E1F74B /* SettingViewController.swift */; };
 		7F64318E2BB7B68300E1F74B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64318D2BB7B68200E1F74B /* TabBarController.swift */; };
+		7F6431942BBC51C600E1F74B /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6431932BBC51C600E1F74B /* Course.swift */; };
+		7F6431962BBC51DB00E1F74B /* Holes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6431952BBC51DB00E1F74B /* Holes.swift */; };
+		7F6431982BBC620B00E1F74B /* DestinationLocationsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6431972BBC620B00E1F74B /* DestinationLocationsMapView.swift */; };
 		7F70BE512BB7502400F94A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F70BE502BB7502400F94A1E /* AppDelegate.swift */; };
 		7F70BE532BB7502400F94A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F70BE522BB7502400F94A1E /* SceneDelegate.swift */; };
 		7F70BE552BB7502400F94A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F70BE542BB7502400F94A1E /* ViewController.swift */; };
@@ -33,6 +36,9 @@
 		7F6431852BB78BCC00E1F74B /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		7F6431872BB78BDF00E1F74B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		7F64318D2BB7B68200E1F74B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7F6431932BBC51C600E1F74B /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Course.swift; path = ../../../../../../../../../Downloads/Course.swift; sourceTree = "<group>"; };
+		7F6431952BBC51DB00E1F74B /* Holes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Holes.swift; path = ../../../../../../../../../Downloads/Holes.swift; sourceTree = "<group>"; };
+		7F6431972BBC620B00E1F74B /* DestinationLocationsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationLocationsMapView.swift; sourceTree = "<group>"; };
 		7F70BE4D2BB7502400F94A1E /* Harvest Hills Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harvest Hills Golf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F70BE502BB7502400F94A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F70BE522BB7502400F94A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +89,7 @@
 				7F70BE5E2BB7502600F94A1E /* LaunchScreen.storyboard */,
 				7F70BE612BB7502600F94A1E /* Info.plist */,
 				7F70BE592BB7502400F94A1E /* Harvest_Hills_Golf.xcdatamodeld */,
+				7F6431972BBC620B00E1F74B /* DestinationLocationsMapView.swift */,
 			);
 			path = "Harvest Hills Golf";
 			sourceTree = "<group>";
@@ -90,6 +97,8 @@
 		7F70BE672BB751F300F94A1E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7F6431932BBC51C600E1F74B /* Course.swift */,
+				7F6431952BBC51DB00E1F74B /* Holes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6431982BBC620B00E1F74B /* DestinationLocationsMapView.swift in Sources */,
+				7F6431942BBC51C600E1F74B /* Course.swift in Sources */,
 				7F64317E2BB78B5100E1F74B /* SignUpViewController.swift in Sources */,
 				7F6431882BB78BDF00E1F74B /* SettingViewController.swift in Sources */,
 				7F70BE552BB7502400F94A1E /* ViewController.swift in Sources */,
@@ -197,6 +208,7 @@
 				7F6431842BB78BB500E1F74B /* MapViewController.swift in Sources */,
 				7F64317C2BB78B3400E1F74B /* LogInViewController.swift in Sources */,
 				7F6431802BB78B6100E1F74B /* HomeViewController.swift in Sources */,
+				7F6431962BBC51DB00E1F74B /* Holes.swift in Sources */,
 				7F6431822BB78BA200E1F74B /* StandingViewController.swift in Sources */,
 				7F64318E2BB7B68300E1F74B /* TabBarController.swift in Sources */,
 				7F6431862BB78BCC00E1F74B /* StatsViewController.swift in Sources */,
@@ -433,7 +445,8 @@
 				7F70BE5A2BB7502400F94A1E /* Harvest_Hills_Golf.xcdatamodel */,
 			);
 			currentVersion = 7F70BE5A2BB7502400F94A1E /* Harvest_Hills_Golf.xcdatamodel */;
-			path = Harvest_Hills_Golf.xcdatamodeld;
+			name = Harvest_Hills_Golf.xcdatamodeld;
+			path = Model/Harvest_Hills_Golf.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
