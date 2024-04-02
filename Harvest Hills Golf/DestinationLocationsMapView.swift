@@ -21,7 +21,7 @@ struct DestinationLocationsMapView: View {
             if let destination {
                 ForEach(destination.placemarks) { placemark in
                     Marker(coordinate: placemark.coordinate) {
-                        Label(placemark.number, systemImage: "star")
+                        Label(placemark.number, systemImage: "flag.fill")
                     }
                     .tint(.yellow)
                 }
